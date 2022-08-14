@@ -1,0 +1,19 @@
+// Параллакс фона определенного блока
+// Для работы добавить к блоку data-parallax-bg
+
+[data-parallax-bg] {
+	overflow: hidden;
+	position: relative;
+}
+// Глобальный фон
+.bg-item {
+	// overflow: hidden;
+	position: absolute;
+	top: -45%;
+	left: 0%;
+	width: 100%;
+	height: 190%;
+	// Задать картинку с фоном
+	// background: url("@img/main-bg.jpg") center / cover no-repeat;
+	
+}

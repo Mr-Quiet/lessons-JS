@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru"> @@include('html/_head.htm',{ "title":"Главная" }) <style>
+	.btn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+		border-radius: 10px;
+		padding: 10px 20px;
+		background-color: #77608d;
+		color: #fff;
+		font-size: 28px;
+		transition: all 0.3s ease 0s;
+		border: none;
+		cursor: pointer;
+		box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+	}
+
+	.btn:hover {
+		background-color: #6a567c;
+	}
+
+	.btn:active {
+		/* padding: 9px 19px; */
+		transform: translate(0px, 3px);
+		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+	}
+
+	.cnt {
+		margin-top: 20px;
+	}
+</style>
+
+<body>
+	<div class="wrapper"> @@include('html/_header.htm',{}) <main class="page">
+			<button type="button" class="btn">Send</button>
+			<div class="cnt">
+			</div>
+		</main> @@include('html/_footer.htm',{}) </div> @@include('html/_popup.htm',{}) @@include('html/_js.htm',{})
+</body>
+
+</html>
